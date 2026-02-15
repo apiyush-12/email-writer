@@ -1,0 +1,15 @@
+# Spring Boot
+email-writer-sb/target/
+email-writer-sb/*.log
+
+# React
+email-writer-react/node_modules/
+email-writer-react/dist/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
