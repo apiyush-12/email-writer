@@ -1,0 +1,70 @@
+/* Full page background */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
+
+/* Main container */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  color: #1e3c72;
+  margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+  font-weight: bold;
+  color: #2a5298;
+}
+
+/* Textarea styling */
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid #2a5298;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Select dropdown */
+select {
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #2a5298;
+  margin-bottom: 20px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2a5298;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #1e3c72;
+}
+
+/* Generated reply box */
+.reply-box {
+  margin-top: 20px;
+}
